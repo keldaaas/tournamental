@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tournamental", "Tournamental\Tournamental.csproj", "{7C05D4E5-D9F4-43E3-9DDE-2E3B3056D50A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tournamental.Application", "Tournamental.Application\Tournamental.Application.csproj", "{A6AA7AD9-F2B4-406A-B3C2-CAE44CFCC579}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tournamental.Application.EF", "Tournamental.Application.EF\Tournamental.Application.EF.csproj", "{F803045C-07A2-44DE-B98E-E282536B294B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C05D4E5-D9F4-43E3-9DDE-2E3B3056D50A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C05D4E5-D9F4-43E3-9DDE-2E3B3056D50A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C05D4E5-D9F4-43E3-9DDE-2E3B3056D50A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C05D4E5-D9F4-43E3-9DDE-2E3B3056D50A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6AA7AD9-F2B4-406A-B3C2-CAE44CFCC579}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6AA7AD9-F2B4-406A-B3C2-CAE44CFCC579}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6AA7AD9-F2B4-406A-B3C2-CAE44CFCC579}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6AA7AD9-F2B4-406A-B3C2-CAE44CFCC579}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F803045C-07A2-44DE-B98E-E282536B294B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F803045C-07A2-44DE-B98E-E282536B294B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F803045C-07A2-44DE-B98E-E282536B294B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F803045C-07A2-44DE-B98E-E282536B294B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

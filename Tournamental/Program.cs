@@ -1,4 +1,4 @@
-using Tournamental.Components;
+using Tournamental;
 
 var builder = WebApplication.CreateBuilder(args);
 
