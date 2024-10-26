@@ -1,7 +1,25 @@
 ﻿@page "/"
+@using System.Security.Claims
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Components.Authorization
+@attribute [Authorize]
+@inject AuthenticationStateProvider AuthStateProvider
 
 <PageTitle>Home</PageTitle>
 
-<h1>Hello, world!</h1>
+<h1>Hello @discordUsername, world!</h1>
 
 Welcome to your new app.
+
+@code {
+    private string? discordUsername;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var authState = await AuthStateProvider.GetAuthenticationStateAsync();
+        var user = authState.User;
+        discordUsername = user.Identity.IsAuthenticated
+            ? user.FindFirst(c => c.Type == ClaimTypes.Name)?.Value
+            : "Guest";
+    }
+}
