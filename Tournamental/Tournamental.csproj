@@ -4,10 +4,15 @@
         <TargetFramework>net8.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
+        <UserSecretsId>3a161c1c-6736-4218-9092-4076209a92ef</UserSecretsId>
     </PropertyGroup>
 
     <ItemGroup>
       <PackageReference Include="bootstrap" Version="5.3.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Tournamental.Infrastructure\Tournamental.Infrastructure.csproj" />
     </ItemGroup>
 
 </Project>
